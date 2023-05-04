@@ -1,0 +1,103 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bruno Ace SC;
+    background-color: hsl(0, 0%, 0%);
+    font-size:50px;
+}
+html, body{
+    height: 100%;
+}
+header{
+    height: 100px;
+    color: white;
+
+}
+
+.menu{
+    text-align: right;
+    padding-top: 30px;
+}
+.menu h1{
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    margin-right:60px;
+}
+
+.menu a{
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.jogo img{
+    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+#jogos button{
+    width: 30%;
+    background-color:red;
+    text-align: center;
+    margin-left: 150px;
+
+}
+#main {
+    padding: 20px;
+    color: white;
+}
+
+#main p{
+    
+    padding: 20px;
+    text-align: center;
+}
+#main h1{
+    padding: 20px;
+    text-align: center;
+    
+}
+#main h2{
+    margin-top: 2px;
+}
+
+
+
+.capa {
+    margin-left: 200px;
+    margin-right: 50px;
+    width: 150px;
+    height: 20px;
+}
+#trailer{
+    margin: 0;
+    margin-top: 80px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+    
+}
+div.container1 {
+    height: 10em;
+    position: relative }
+div.container1 p {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+footer{
+    margin-top: 100;
+        }
+        
